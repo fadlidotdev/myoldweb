@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+
+	font-family: sans-serif;
+
+	color: #222;
+}
+
+/*=================================================
+ * HEADER
+================================================= */
+header {
+	padding: 20px;
+
+	border-bottom: 1px dotted #888;
+}
+
+header h1 {
+	margin: 0;
+
+	text-align: center;
+}
+
+header h1 a {
+	text-decoration: none;
+	color: #777;
+}
+
+
+/*=================================================
+ * MAIN CONTENT
+================================================= */
+
+.mainContent {
+	margin-top: 40px;
+}
+
+.appContainer {
+	width: 500px;
+	margin: 0 auto;
+}
+
+form {
+	padding: 20px;
+}
+
+.elementForm span{
+	display: block;
+	margin-bottom: 5px;
+
+	color: #555;
+}
+
+.elementForm input[type="text"],
+.elementForm input[type="email"],
+.elementForm select, 
+.gender {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.elementForm input[type="text"],
+.elementForm input[type="email"],
+.elementForm select {
+	padding: 10px;
+
+	color: #888;
+	border: none;
+	border-bottom: 2px dotted #888;
+}

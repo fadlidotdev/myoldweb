@@ -1,0 +1,49 @@
+
+
+
+@media(min-width: 760px) {
+	.col-4 { width: 47.33%; float: left; margin: 1%;}
+	.newsletter input {
+		width: 50%;
+		height: 40px;
+		margin-right: 20px;
+		float: left;
+	}
+	.newsletter button {
+		height: 40px;
+		float: left;
+	}
+	
+}
+
+@media(min-width: 1024px) {
+/* grid system */
+	.col-1 { width: 8.33%; }
+	.col-2 { width: 16.667% }
+	.col-3 { width: 25%; float: left;}
+	.col-4 { width: 31.33%; float: left; margin: 1%;}
+	.col-5 { width: 39.667%; }
+	.col-6 { width: 50%; }
+	.col-7 { width: 58.33%; }
+	.col-8 { width: 66.67%; }
+	.col-9 { width: 75%; }
+	.col-10 { width: 83.33%; }
+	.col-11 { width: 91.667%; }
+	.col-12 { width: 100%; }
+
+	.banner {
+		background-attachment: fixed;
+		padding: 300px 0 150px;
+	}
+
+	footer ul {
+		list-style-type: none;
+	}
+	
+	footer .footer-link {
+		padding-top: 20px;
+		padding-left: 20px;
+	}
+
+}
+

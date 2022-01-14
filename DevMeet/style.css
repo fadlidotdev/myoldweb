@@ -1,0 +1,296 @@
+
+/* global styles */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	
+	color: #333;
+	background: #f4f4f4;
+}
+
+.wrapper {
+	width: 70%;
+	max-width: 680px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* login styles */
+.login {
+	width: 100%;
+	height: 100vh;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginBox {
+	width: 480px;
+	padding: 50px 25px;
+	background: #fff;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+}
+
+.loginTitle {
+	width: 80%;
+	margin: auto;
+}
+
+.loginTitle img {
+	display: block;
+	width: 64px;
+}
+
+.elementForm {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.elementForm input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	
+	border: 0;
+	border-bottom: 1px solid rgba(0,0,0, .3);
+	outline: none;
+}
+
+.btn {
+	transform: translate(0, 20px);
+	display: block;
+	width: 80%;
+	height: 40px;
+	margin: auto;
+	
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+	outline: none;
+	border: 0;
+	background: #fff;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+	cursor: pointer;
+	
+	transition: all 250ms;
+}	
+
+.btn:hover {
+	background: #eee;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .4);
+
+}
+
+/* home */
+
+.mainHeader {
+	position: relative;
+	color: #fff;
+	background: #333;
+	padding: 10px 0;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+}
+
+.mainHeader .logo {
+	transform: translate(0, 3px);
+	width: 10%;
+	float: left;
+}
+
+.mainHeader .logo img {
+	width: 32px;
+}
+
+.mainHeader::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.mainHeader .searchBar {
+	width: 60%;
+	float: left;
+}
+
+.searchBar input {
+
+	display: block;
+	background: #fff;
+	padding: 10px;
+	width: 100%;
+	outline: none;
+	border: 0;
+	border-radius: 3px;
+}
+
+.mainHeader .account {
+	width: 30%;
+	float: left;
+}
+
+.account img {
+	display: inline-block;
+	width: 32px;
+	margin: 0 5px;
+	padding: 5px;
+	border-radius: 50%;
+	transition: all .4s;
+}
+
+.account img:hover {
+	background: #fff;
+}
+
+.account .profileImage {
+	background: #fff;
+	border-radius: 50%;
+}
+
+.accountMenu {
+	padding-left: 20px;
+}
+
+
+.btnSignOut {
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	font-size: 0.6rem;
+	display: inline-block;
+	padding: 10px;
+	background: #444;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: all .4s;
+}
+
+.btnSignOut:hover {
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .4);
+}
+
+.main {
+	padding: 40px 0;
+	background: #f4f4f4;
+	width: 100%;
+}
+
+.card {
+	padding: 20px;
+	width: 100%;
+	min-height: 100px;
+	background: #fff;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+	transition: all 0.4s;
+	margin-bottom: 15px;
+}
+
+.card img,
+.card .personName {
+	display: inline-block;
+}
+
+.card .personName {
+	font-weight: bold;
+	position: relative;
+	top: -7px;
+	left: 10px;
+}
+
+.card:hover {
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .4);
+	transform: rotate(-5deg);
+}
+
+.post {
+	position: relative;
+	transition: all .4s;
+	width: 100%;
+	overflow: hidden;
+}
+
+.post::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+.postControl span {
+	display: inline-block;
+	font-size: 0.85rem;
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+.postControl img {
+	width: 16px;
+}
+
+.postComments {
+    float: left;
+    width: 60%;
+}
+
+.postComments input {
+	display: inline-block;
+	width: 100%;
+	border: 0;
+	background: #f4f4f4;
+	outline: none;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.postControl {
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+.profileLogo {
+	margin: auto;
+}
+
+.profile h1 {
+	text-align: center;
+}
+
+footer {
+	background: #fff;
+	padding: 10px 0;
+	overflow: hidden;
+	
+}
+
+footer p {
+	float: left;
+	font-size: 0.8rem;
+}
+
+footer a {
+	display: block;
+	float: right;
+	font-size: 0.8rem;
+	color: #333;
+	margin-top: 15px;
+}
+
+footer a:hover {
+	color: #000;
+	font-weight: bold;
+}

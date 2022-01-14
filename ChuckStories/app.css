@@ -1,0 +1,55 @@
+body {
+    width: 600px;
+    padding-top: 20px;
+    margin: 0 auto;
+
+    font-family: monospace;
+
+    color: #222;
+}
+
+h1, h2, h5 {
+    margin: 0;
+}
+
+header {
+    background: #bbb;
+}
+
+header img {
+    display: inline-block;
+    width: 42px;
+    
+    vertical-align: bottom; 
+
+    border: 2px solid #ccc;
+    border-radius: 50%;
+}
+
+.mainTitle {
+    display: inline-block;
+}
+
+main {
+    background: #ccc;
+}
+
+article {
+    background: #ddd;
+}
+
+article q {
+    display: block;
+
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    
+    background: #aaa;
+}
+
+header, main, article, footer {
+    padding: 10px;
+}

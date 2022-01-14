@@ -1,0 +1,95 @@
+ /* Fonts from Google Fonts - more at https://fonts.google.com */
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+ @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+ body {
+   margin: 0;
+
+   font-family: "Open Sans", sans-serif;
+   font-size: 18px;
+   
+   background: url('../images/pattern.png') repeat;
+   color: #444;
+ }
+
+ h1 {
+   font-family: "Merriweather", sans-serif;
+   font-size: 28px;
+ }
+
+ .box {
+   overflow: hidden;
+
+   position: relative;
+   top: 50px;
+   width: 320px;
+   margin: 0 auto;
+
+   background-color: #eee;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px rgba(0,0,0,.4);
+ }
+
+ .title-box {
+   padding: 10px 0 0;
+   
+   text-align: center;
+ }
+
+ .title-box h1 {
+   margin: 0;
+   padding: 5px 0;
+ }
+
+ .title-box small {
+   display: block;
+   width: 100%;
+   padding: 5px 0;
+   
+   background: #ccc;
+ }
+
+ .photo-box img {
+   width: 320px;
+ }
+
+ .info-box {
+   width: 320px;
+   margin: 0 auto;
+ }
+
+ .info-box p {
+   padding-left: 15px;
+ }
+
+ .social-box {
+   text-align: center;
+   padding: 10px 0;
+   
+   background-color: #444;
+   color: #fff;
+ }
+
+ .social-box span a {
+   display: inline-block;
+   margin: 0 20px;
+   padding: 10px 20px;
+
+   text-decoration: none;
+   font-weight: bold;
+
+   border-radius: 10px;
+   color: #fff;
+ }
+
+ #facebook {
+   background-color: #5068A9;
+ }
+
+ #twitter {
+   background-color: #2BB3C0;
+ }
+
+ #medium {
+   background-color: #222831;
+ }
